@@ -1,0 +1,132 @@
+.app-sidebar .app-sidebar__user img{
+width: 50px;
+height: 50px;
+}
+.app-sidebar .app-sidebar__user p{
+	padding-top: 3px;
+}
+  .info h6 {
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+  h3{
+    font-size: 15px;
+  }
+  .app-sidebar__user p{
+    font-size: 13px;
+  }
+.app-title-footer h4{
+  font-size: 15px;
+}
+@media screen and (min-width: 500px) {
+  .app-title-footer h1{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .app-title-footer p{
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+
+  .app-title-footer ul li a{
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+
+
+.app-content-footer {
+  min-height: calc(8vh - 20px);
+  /* margin-top: 50px;
+  padding: 30px;  */
+  background-color: #f0f0f0;
+  -webkit-transition: margin-left 0.3s ease;
+  -o-transition: margin-left 0.3s ease;
+  transition: margin-left 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .app-content-footer {
+    margin-left: 240px;
+  }
+}
+
+@media (max-width: 767px) {
+  .app-content-footer {
+    /* margin-top: 50px; */
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-content-footer {
+    padding: 15px;
+  }
+}
+
+@media print {
+  .app-content-footer {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+}
+.app-title-footer {
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #FFF;
+  /* margin: -30px -30px 30px; */
+  padding: 15px 25px;
+  /* -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); */
+}
+
+@media print {
+  .app-title-footer {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-title-footer {
+    margin: -15px -15px 15px;
+    padding: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+.app-title-footer h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.app-title-footer p {
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+@media (max-width: 480px) {
+  .app-title-footer p {
+    display: none;
+  }
+}
